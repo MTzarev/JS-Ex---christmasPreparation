@@ -8,7 +8,7 @@ function chrismasPreparation(input) {
     let totalForGlue = glueNum * 1.20;
     let totalPrice = totalForPaper + totalForCloth + totalForGlue;
     let totalDiscount = totalPrice * discount / 100;
-    let totalAfterDiscount = totalPrice - totalDiscount
+    let totalAfterDiscount = totalPrice - totalDiscount;
     console.log(totalAfterDiscount.toFixed(3));
 }
 chrismasPreparation(["2", "3", "2.5", "25"])
